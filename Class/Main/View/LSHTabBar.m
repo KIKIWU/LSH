@@ -66,6 +66,8 @@
     }
 }
 
+//冲突
+
 - (void)plusButtonClick
 {
     if ([self.delegate respondsToSelector:@selector(tabBarDidClickedPlusButton:)]) {
